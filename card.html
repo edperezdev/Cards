@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      background-color: rgb(17, 207, 207);
+      text-align: center;
+    }
+
+    article {
+      margin-top: 40px;
+      background: white;
+      display: inline-block;
+      text-align: left;
+      border-radius: 18px;
+      box-shadow: 0px 0px 50px #48495a;
+    }
+
+    li {
+      list-style: none;
+    }
+    img {
+      border-top-left-radius: 18px;
+      border-top-right-radius: 18px;
+      display:block;
+    }
+
+    .top {
+      position: relative;
+    }
+    .letters {
+      position: absolute;
+      bottom: 30px;
+      width: 100%;
+      text-align: center;
+      color: white;
+      background: black;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+    .letters a {
+      color: tomato;
+    }
+    ul {
+      display: flex;
+      justify-content: space-evenly;
+      margin-bottom:20px;
+    }
+
+    .datos {
+      padding: 10px;
+      text-align: center;
+    }
+    a{
+      text-decoration: none;
+      color:blue;
+    }
+
+    .button{
+      padding:10px;
+      background-color:blueviolet;
+      margin-top:5px;
+      color:white;
+      border-radius: 20px;
+      display:inline-block;
+      width:100px;
+
+    }
+  </style>
+  <body>
+    <article>
+      <div class="top">
+        <figure>
+          <img src="https://picsum.photos/id/237/400/400" alt="girl" />
+        </figure>
+
+        <div class="letters">
+          <h1>Jackie</h1>
+          <a href="">@jackiesnaps</a>
+        </div>
+      </div>
+      <div class="datos">
+        <ul>
+          <li>
+            <p>391</p>
+            <a href="tweets">Tweets</a>
+          </li>
+          <li>
+            <p>253</p>
+            <a href="Following">Following</a>
+          </li>
+          <li>
+            <p>544</p>
+            <a href="Followers">Followers</a>
+          </li>
+        </ul>
+        <a class="button" href="#"> <i class="fab fa-twitter"></i> Follow </a>
+      </div>
+    </article>
+    <script
+      src="https://kit.fontawesome.com/43f3cc2ec8.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
